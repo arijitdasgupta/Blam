@@ -1,0 +1,20 @@
+{
+  "name": "Blam",
+  "description": "A little utility to show people what they think may not always be the true",
+  "version": "0.1.0",
+  "author": "Arijit Dasgupta",
+  "homepage": "http://arijitdg.net",
+  "contributors": [ "Arijit Dasgupta <brian.frichette@gmail.com>" ],
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "prompt":">=1.1.0"
+  },
+  "keywords": ["game", "command line"],
+  "repository": "http://github.com/arijitdasgupta/Blam",
+  "licenses": [{
+    "type": "MIT",
+    "url": "http://opensource.org/licenses/MIT"
+  }]
+}
