@@ -20,7 +20,7 @@ var _ = require('lodash');
  var checkForTruth = function(statement){
    statement = statement.numbers;
    if(statement === 'truth'){ //`truth` will terminate the trial and error loop...
-     return 'stop';
+     return 'stop'; //This return is used to stop the loop...
    }
 
    var numbers = _.map(statement.split(' '),function(item){
@@ -28,7 +28,7 @@ var _ = require('lodash');
    });
    var a = numbers[0], b = numbers[1], c = numbers[2];
 
-   if((b > a) && (c > b)){
+   if((b > a) && (c > b)){ //This is the main validation
      return true;
    }
    else{
