@@ -4,17 +4,25 @@
   "version": "0.1.0",
   "author": "Arijit Dasgupta",
   "homepage": "http://arijitdg.net",
-  "contributors": [ "Arijit Dasgupta <brian.frichette@gmail.com>" ],
+  "contributors": [
+    "Arijit Dasgupta <arijit.dasgupta@gmail.com>"
+  ],
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node main.js"
   },
   "dependencies": {
-    "prompt":">=1.1.0"
+    "lodash": "^4.6.1",
+    "prompt": ">=1.0.0"
   },
-  "keywords": ["game", "command line"],
+  "keywords": [
+    "game",
+    "command line"
+  ],
   "repository": "http://github.com/arijitdasgupta/Blam",
-  "licenses": [{
-    "type": "MIT",
-    "url": "http://opensource.org/licenses/MIT"
-  }]
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ]
 }

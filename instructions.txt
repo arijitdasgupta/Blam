@@ -1,0 +1,13 @@
+Among integers a, b, c, there is a exact mathematical relationship. You need to guess that mathematical relationship by trial and error.
+
+To guess a set of (a, b, c) enter three numbers separated by space into the prompt. Like `10 20 30` and press RETURN. The prompt will let you know whether you statement is correct or not. Keep repeating until you are sure that you have the right mathematical relationship between a, b and c.
+
+Once you are sure that you got mathematical relationship right you can type in `truth` in the prompt. The prompt will show you what the exact mathematical relationship is, and you can see if you were correct.
+
+Here is the first combination of a, b and c that is `true`
+==========================================================
+a b c
+- - -
+1 5 6
+
+Now it's your turn to guess...
