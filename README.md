@@ -23,5 +23,7 @@ This the validation module. Feel free to customize this according to your truth 
 ------------------
 A placeholder text file used by `truth.js` as an initial instruction text piece. You don't really need this if you customize `truth.js` accordingly.
 
+The test that is there in `truth.js` is inspired by a video from [Veritasium] (https://www.youtube.com/user/1veritasium/featured)
+
 ##License
 MIT (http://opensource.org/licenses/MIT)
